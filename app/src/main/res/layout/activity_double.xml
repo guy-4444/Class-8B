@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/main_LAY_top"
+        android:layout_width="match_parent"
+        android:background="#cacaca"
+        android:layout_height="200dp"/>
+
+    <FrameLayout
+        android:id="@+id/main_LAY_bottom"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/main_LAY_top"
+        android:layout_marginTop="16dp"
+        android:background="#cacaca"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_BTN_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:textColor="#000000"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/main_BTN_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:textColor="#000000"
+            android:textSize="28sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
